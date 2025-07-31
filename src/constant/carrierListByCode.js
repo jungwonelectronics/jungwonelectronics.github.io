@@ -12,10 +12,10 @@ export const list = [
       {
         model: ['Phaser5500'],
         useInList: [
-          'Phaser 5500/5550/5520/5230',
+          'Phaser 5500,5550,5520,5230',
           'Tally 9050, Lexmark W840',
-          'Dell 7330, IBM Inforprinter 1585',
-          'Docu Printer 405/505/4060/5060',
+          'Dell 7330, IBM Inforprinter 1585,',
+          'Docu Printer 405,505,4060,5060',
         ],
         remarks: [
           'XEROX',
@@ -25,12 +25,12 @@ export const list = [
       {
         model: ['WorkCenter M123'],
         useInList: [
-          'WorkCentre M133/M128/M123/M118',
-          'WorkCentre 5230/5225/5222',
-          'DocuCentre II 5010/4000',
-          'DocuCentre 450I/550I/336/286/236/186/156/A285/A235',
-          'DocuCentre 2005/2055/3005/2007/3007',
-          'CopyCentre C133/C128/C123/C118',
+          'WorkCentre M133,M128,M123,M118',
+          'WorkCentre 5230,5225,5222',
+          'DocuCentre II 5010,4000',
+          'DocuCentre 450I,550I,336,286,236,186,156,A285/A235',
+          'DocuCentre 2005,2055,3005,2007,3007',
+          'CopyCentre C133,C128,C123,C118',
         ],
         remarks: [
           'XEROX',
@@ -45,7 +45,7 @@ export const list = [
       {
         model: ['CLC3220'],
         useInList: [
-          'CLC 2620/3220/3200/2600, GPR11',
+          'CLC 2620,3220,3200,2600,GPR11',
         ],
         remarks: [
           'CANON',
@@ -54,8 +54,8 @@ export const list = [
       {
         model: ['iRC3200'],
         useInList: [
-          'iRC 2620/3220/3200/2600, GPR11',
-          'iRC 4580/5180/4080/5185/4040/5080/5151',
+          'iRC 2620,3220,3200,2600,GPR11',
+          'iRC 4580,5180,4080,5185,4040,5080,5151',
         ],
         remarks: [
           'CANON',
@@ -64,7 +64,7 @@ export const list = [
       {
         model: ['BHC253'],
         useInList: [
-          'Bizhub C200/203/253/353',
+          'Bizhub C200,203,253,353',
         ],
         remarks: [
           'KM',
@@ -79,7 +79,7 @@ export const list = [
       {
         model: ['BH250'],
         useInList: [
-          'Bizhub 200/222/250/282/350/360/362',
+          'Bizhub 200,222,250,282,350,360,362',
         ],
         remarks: [
           'KM',
@@ -88,7 +88,7 @@ export const list = [
       {
         model: ['LBP5960'],
         useInList: [
-          'LBP 5960/5900/5910/5600/5610, GPR23',
+          'LBP 5960,5900,5910,5600,5610,GPR233',
         ],
         remarks: [
           'CANON',
@@ -97,7 +97,7 @@ export const list = [
       {
         model: ['iRC3480'],
         useInList: [
-          'iRC 3480/3380/3080/2550/2880, GPR23',
+          'iRC3480,3380,3080,2550,2880,GPR23',
         ],
         remarks: [
           'CANON',
@@ -111,16 +111,16 @@ export const list = [
       {
         model: ['BHC652'],
         useInList: [
-          'Bizhub C652/C552/C452',
-          'Bizhub C450/351/350',
-          'Bizhub C250/252',
+          'Bizhub C652,C552,C452',
+          'Bizhub C450,351,350',
+          'Bizhub C250,252',
         ],
         remarks: [
           'KM',
         ],
       },
       {
-        model: ['BHC360'],
+        model: ['BHC 360'],
         useInList: [
           'BHC 220/280/360',
         ],
@@ -131,7 +131,7 @@ export const list = [
       {
         model: ['SL-X3220'],
         useInList: [
-          'SL-X3220/3280, SL-X4220/4300, CLX-9206/9201',
+          'SL-X3220/3280,SL-X4220/4300,CLX-9206/9201',
         ],
         remarks: [
           'SAMSUNG',
@@ -170,9 +170,8 @@ export const list = [
       {
         model: ['BHC224'],
         useInList: [
-          'BHC 224/284/364(TN321), BHC 225/258/368(TN324)',
-          'Bizhub 227/287/367, Bizhub 200/222/250/282/350/362',
-          'BH283/263/423(TN217)',
+          'BHC224/284/364(TN321), BHC225/258/368(TN324)',
+          'Bizhub 227/287/367, Bizhub 200/222/250/282/350/362, BH283/263/423(TN217)',
         ],
         remarks: [
           'KM',
@@ -182,7 +181,7 @@ export const list = [
       {
         model: ['iR ACVC3320'],
         useInList: [
-          'IR ACVC 3320/3325/3330, NPG67, NPG71, NPG46',
+          'IR ACVC3320,3325,3330,NPG67',
         ],
         remarks: [
           'CANON',
@@ -192,8 +191,7 @@ export const list = [
       {
         model: ['MPC2504'],
         useInList: [
-          'SINDOH D430/431/432',
-          'MPC2004/MPC2504/MPC3004'
+          'MPC2003/MPC2503/MPC3003,MPC2004/MPC2504/MPC3004',
         ],
         remarks: [
           'RICOH',
@@ -203,11 +201,38 @@ export const list = [
         model: ['DCC2270'],
         useInList: [
           'DCC2270/DCC2275/DCC3370/DCC3375/DCC4470/DCC5570',
-          'DCC2276/3376/4476',
-          'DCC5580/7780/5585/7785'
+          'DCC2276/3376/4476, DCC5580/7780/5585/7785, DCC2260',
         ],
         remarks: [
           'XEROX',
+        ],
+      },
+    ],
+  },
+  {
+    jweCode: ['TC42'],
+    productList: [
+      {
+        model: ['SL-X3220'],
+        useInList: [
+          'SL-X3220/3280,SL-X4220/4300,CLX-9206/9201,SL-X7600, MX4,MX7,MX pro',
+        ],
+        remarks: [
+          'For OEM,Chemical T/N',
+        ],
+      },
+    ],
+  },
+  {
+    jweCode: ['TC43'],
+    productList: [
+      {
+        model: ['DCC2263'],
+        useInList: [
+          'DCC2260/DCC2263',
+        ],
+        remarks: [
+          '',
         ],
       },
     ],
@@ -287,6 +312,26 @@ export const list = [
     ],
   },
   {
+    jweCode: ['TC51C'],
+    productList: [
+      {
+        model: ['MP3554', 'Carrier'],
+        useInList: [
+          'MP3554/IM3000',
+          'Aficio 1060/1075/2051/2060/2075',
+          'Aficio MP5500/6000/6001/6002/6500/7000',
+          'Aficio MP7001/7002/7500/7502/8000/8001',
+          'Aficio MP9001/9002',
+          'Aficio 1085/1105/2090/2105',
+          'Toshiba e studio 1050/900',
+        ],
+        remarks: [
+          'RICOH',
+        ],
+      },
+    ],
+  },
+  {
     jweCode: ['MC51'],
     productList: [
       {
@@ -297,6 +342,20 @@ export const list = [
         ],
         remarks: [
           'RICOH',
+        ],
+      },
+    ],
+  },
+  {
+    jweCode: ['TC71'],
+    productList: [
+      {
+        model: ['Ta2554'],
+        useInList: [
+          'Taskalfa 2554ci/8520FS',
+        ],
+        remarks: [
+          'Kyocera',
         ],
       },
     ],

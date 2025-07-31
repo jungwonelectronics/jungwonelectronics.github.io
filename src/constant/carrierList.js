@@ -12,11 +12,12 @@ export const list = [
     productList: [
       {
         machine: 'MFP/C',
-        jweCode: ['TC23s'],
+        jweCode: ['TC23s/TC42'],
         model: ['SL-X3220'],
         useInList: [
-          'SL-X3220/3280, SL-X4220/4300, CLX-9206/9201',
+          'SL-X3220/3280, SL-X4220/4300, CLX-9206/9201, SL-X7600, MX4, MX7, MX pro',
         ],
+        remarks: "Depend on Toner",
       },
     ],
   },
@@ -28,10 +29,10 @@ export const list = [
         jweCode: ['TC-19/TD-19'],
         model: ['Phaser5500'],
         useInList: [
-          'Phaser 5500/5550/5520/5230',
+          'Phaser 5500,5550,5520,5230',
           'Tally 9050, Lexmark W840',
           'Dell 7330, IBM Inforprinter 1585',
-          'Docu Printer 405/505/4060/5060',
+          'Docu Printer 405,505,4060,5060',
         ],
         remarks: 'Developer',
       },
@@ -40,12 +41,12 @@ export const list = [
         jweCode: ['TC-19/TD-19'],
         model: ['WorkCenter M123'],
         useInList: [
-          'WorkCentre M133/M128/M123/M118',
-          'WorkCentre 5230/5225/5222',
-          'DocuCentre II 5010/4000',
-          'DocuCentre 450I/550I/336/286/236/186/156/A285/A235',
-          'DocuCentre 2005/2055/3005/2007/3007',
-          'CopyCentre C133/C128/C123/C118',
+          'WorkCentre M133,M128,M123,M118',
+          'WorkCentre 5230,5225,5222',
+          'DocuCentre II 5010,4000',
+          'DocuCentre 450I,550I,336,286,236,186,156,A285/A235',
+          'DocuCentre 2005,2055,3005,2007,3007',
+          'CopyCentre C133,C128,C123,C118',
         ],
         remarks: 'Developer',
       },
@@ -60,13 +61,21 @@ export const list = [
       },
       {
         machine: 'Copier/C',
+        jweCode: ['TC43'],
+        model: ['DCC2263'],
+        useInList: [
+          'DCC2260/DCC2263',
+        ],
+      },
+      {
+        machine: 'Copier/C',
         jweCode: ['TC41/TD41'],
         model: ['DCC2270'],
         useInList: [
           'DCC2270/DCC2275/DCC3370/DCC3375/DCC4470/DCC5570',
-          'DCC2276/3376/4476',
-          'DCC5580/7780/5585/7785'
+          'DCC2276/3376/4476, DCC5580/7780/5585/7785',
         ],
+        remarks: 'Carrier, Developer',
       },
     ],
   },
@@ -78,15 +87,15 @@ export const list = [
         jweCode: ['TC23s'],
         model: ['BHC652'],
         useInList: [
-          'Bizhub C652/C552/C452',
-          'Bizhub C450/351/350',
-          'Bizhub C250/252',
+          'Bizhub C652,C552,C452',
+          'Bizhub C450,351,350',
+          'Bizhub C250,252',
         ],
       },
       {
         machine: 'Copier/C',
         jweCode: ['TC23s'],
-        model: ['BHC360'],
+        model: ['BHC 360'],
         useInList: [
           'BHC 220/280/360',
         ],
@@ -96,15 +105,15 @@ export const list = [
         jweCode: ['TC21s'],
         model: ['BHC253'],
         useInList: [
-          'Bizhub C200/203/253/353',
+          'Bizhub C200,203,253,353',
         ],
       },
       {
         machine: 'Copier/M',
         jweCode: ['TC22s'],
-        model: ['BH250'],
+        model: ['BH 250'],
         useInList: [
-          'Bizhub 200/222/250/282/350/360/362',
+          'Bizhub 200,222,250,282,350,360,362',
         ],
       },
       {
@@ -121,9 +130,8 @@ export const list = [
         jweCode: ['TC41'],
         model: ['BHC224'],
         useInList: [
-          'BHC 224/284/364(TN321), BHC 225/258/368(TN324)',
-          'Bizhub 227/287/367, Bizhub 200/222/250/282/350/362',
-          'BH283/263/423(TN217)',
+          'BHC224/284/364(TN321), BHC225/258/368(TN324)',
+          'Bizhub 227/287/367, Bizhub 200/222/250/282/350/362, BH283/263/423(TN217)',
         ],
         remarks: 'Carrier, Developer',
       },
@@ -137,7 +145,7 @@ export const list = [
         jweCode: ['TC21s'],
         model: ['CLC3220'],
         useInList: [
-          'CLC 2620/3220/3200/2600, GPR11',
+          'CLC 2620,3220,3200,2600,GPR11',
         ],
       },
       {
@@ -145,7 +153,7 @@ export const list = [
         jweCode: ['TC22s'],
         model: ['LBP5960'],
         useInList: [
-          'LBP 5960/5900/5910/5600/5610, GPR23',
+          'LBP 5960,5900,5910,5600,5610,GPR23',
         ],
       },
       {
@@ -153,8 +161,8 @@ export const list = [
         jweCode: ['TC21s'],
         model: ['iRC3200'],
         useInList: [
-          'iRC 2620/3220/3200/2600, GPR11',
-          'iRC 4580/5180/4080/5185/4040/5080/5151',
+          'iRC 2620,3220,3200,2600,GPR11',
+          'iRC 4580,5180,4080,5185,4040,5080,5151',
         ],
       },
       {
@@ -162,7 +170,7 @@ export const list = [
         jweCode: ['TC22s'],
         model: ['iRC3480'],
         useInList: [
-          'iRC 3480/3380/3080/2550/2880, GPR23',
+          'iRC3480,3380,3080,2550,2880,GPR23',
         ],
       },
       {
@@ -170,9 +178,23 @@ export const list = [
         jweCode: ['TC41'],
         model: ['iR ACVC3320'],
         useInList: [
-          'IR ACVC 3320/3325/3330, NPG67, NPG71, NPG46',
+          'IR ACVC3320,3325,3330,NPG67,NPG71,NPG46',
         ],
         remarks: 'Carrier, Developer',
+      },
+    ],
+  },
+  {
+    brand: 'Kyocera',
+    productList: [
+      {
+        machine: 'Copier/C',
+        jweCode: ['TC71'],
+        model: ['Ta2554'],
+        useInList: [
+          'Taskalfa 2554ci/8520FS',
+        ],
+        remarks: "Carrier,Developer",
       },
     ],
   },
@@ -181,7 +203,7 @@ export const list = [
     productList: [
       {
         machine: 'MFP/M',
-        jweCode: ['TC51', 'TD51', '(CD55)'],
+        jweCode: ['TC51', 'TD51', '(CD55)', 'TC51C'],
         model: ['Aficio2035'],
         useInList: [
           'Aficio MP1600/2000/2352/2500/2510/2550',
@@ -211,7 +233,7 @@ export const list = [
         jweCode: ['MC51'],
         model: ['Samsung ML8951(A3)', 'Ricoh SP6100'],
         useInList: [
-          'Samsung ML8951(A3) ,ML8851(A4)',
+          'Samsung ML8951(A3),ML8851(A4)',
           'Ricoh SP6100/6200/6300, SP4100/4200/4300'
         ],
         remarks: ''
